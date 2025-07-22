@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import srcImage from "../../assets/bass-fishing-near-gresham-oregon.webp";
 import { Image } from "astro:assets";
 import MyH1 from "../../components/MyH1.astro";
+import Link from "../../components/Link.astro";
 ---
 <Layout 
 title="Bass Fishing near Gresham, Oregon"
@@ -164,6 +165,9 @@ ogimage={srcImage.src}
 <p>
     While trout and salmon dominate upstream, the lower Clackamas has pockets of bass in slower water and side channels.
 </p>
+
+<p>Read more about <Link href="/bass/best-spots/" text="Best bass fishing spots near Gresham, Oregon" /></p>
+
 <h2>
     Bank vs Boat: Where Should You Fish for Bass?
 </h2>

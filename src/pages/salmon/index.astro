@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import srcImage from "../../assets/salmon-fishing-near-gresham-oregon.webp";
 import { Image } from "astro:assets";
 import MyH1 from "../../components/MyH1.astro";
+import Link from "../../components/Link.astro";
 ---
 <Layout 
 title="Salmon fishing near Gresham, Oregon"
@@ -138,6 +139,9 @@ ogimage={srcImage.src}
 <p>
     Flowing just south of Gresham, the Clackamas River provides strong fall Coho and Chinook returns. Popular bank access spots include Carver Park and Riverside Park. Drift boaters target deeper runs near Barton and McIver Park.
 </p>
+
+<p>Read more about <Link href="/salmon/best-spots/" text="Best salmon fishing spots near Gresham, Oregon" /></p>
+
 <h2>
     Bank Fishing Access Points Around Gresham
 </h2>
